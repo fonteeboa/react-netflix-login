@@ -1,0 +1,143 @@
+.login {
+    background-image: url('../../images/netflix-login-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.row {
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 660px;
+    max-height: 660px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
+}
+
+.col {
+    flex-grow: 1 !important;
+    padding: 60px 68px 40px !important;
+}
+
+.header {
+    border-radius: 7px;
+}
+
+.form-group {
+    background: #333;
+    border-radius: 4px;
+}
+
+.form-control {
+    border-radius: 4px;
+    border-color: #333 !important;
+    background-color: #333 !important;
+    line-height: 50px;
+    padding: 16px 20px 0;
+    border: 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.form-control::placeholder {
+    color: #b3b3b3 !important;
+    opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #b3b3b3 !important;
+    opacity: 1;
+}
+
+.form-control:not(active) {
+    color: white;
+}
+
+.form-control:focus+.form-label {
+    /* Estilos quando o input está focado */
+    top: 10%;
+    font-size: 12px;
+    color: #000;
+}
+
+.sizeField,
+.buttonSubmit,
+.form-control,
+.header {
+    width: 314px !important;
+    height: 50px !important;
+}
+
+.buttonSubmit {
+    background-color: red !important;
+    color: white;
+    border-radius: 7px !important;
+    border: 0 !important;
+}
+
+.text-grey {
+    color: #b3b3b3;
+}
+
+.fs13 {
+
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+input[type="checkbox"],
+input[type="checkbox"]:checked {
+    background-color: #b3b3b3 !important;
+    border: 0 !important;
+}
+
+/* SelectLanguage.css */
+.select-language-container {
+    margin-bottom: 2px;
+    padding-top: 3px;
+}
+
+.language-select {
+    background-color: black;
+    color: white;
+    border-color: #333;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    outline: none;
+    padding: 10px;
+    /* Ajuste para melhorar a usabilidade */
+    -webkit-appearance: none;
+    /* Para remover o estilo padrão no Chrome/Safari */
+    -moz-appearance: none;
+    /* Para remover o estilo padrão no Firefox */
+    appearance: none;
+}
+
+.ahref {
+    text-decoration: none;
+}
+
+.small-screen-message {
+    display: none;
+}
+@media screen and (max-width: 700px) {
+    .login {
+        overflow: hidden;
+        display: none;
+    }
+    .small-screen-message {
+        background-color: #000;
+        display: block;
+        min-width: screen;
+        min-height: 100vh;
+    }
+}
