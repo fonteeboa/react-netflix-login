@@ -15,13 +15,17 @@ O objetivo por trás deste projeto é puramente educacional. Replicar a tela de 
 ## Características
 
 🔹Interface de login inspirada na Netflix.
+
 🔹Design responsivo para adaptação a diferentes tamanhos de tela.
+
 🔹Funcionalidades básicas de autenticação.
 
 ## Tecnologias Utilizadas
 
 🔹 React
+
 🔹CSS
+
 🔹React Bootstrap (para componentes de UI)
 
 ## Instalação e Execução
